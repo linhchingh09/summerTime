@@ -1,0 +1,327 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Anton', sans-serif;
+}
+
+form {
+    align-items: center;
+}
+
+#bg {
+    display: flex;
+}
+
+.img{
+    background-color: rgb(255, 245, 154);
+    width: 65vw;
+    height: 100vh;
+}
+.img img{
+    width: 65vw;
+    height: 100vh;
+    opacity: 0.75;
+}
+
+
+fieldset {
+    width: 34vw;
+    height: 100vh;
+    padding: 25px;
+    border: 0px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+
+}
+
+.head{
+    margin-top: 50px;
+    color: rgb(228, 228, 143);
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 6px 5px rgb(234, 234, 182);
+}
+
+fieldset input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-width: 1px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(218, 213, 213);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#username{
+    margin-top: 50px;
+}
+
+.login {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(228, 228, 143);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    border: 0px;
+    box-shadow: 0px 7px 15px rgb(202, 202, 102);
+}
+
+.login:hover{
+    box-shadow: 0px 7px 15px rgb(215, 215, 121);
+    background-color: rgb(151, 151, 37);
+    transition: 1s;
+}
+
+
+
+.forget {
+    text-align: right;
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.middle{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(186, 186, 186);
+}
+
+
+
+.alternative {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.alternative a {
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.facebook{
+    background-color: rgb(108, 126, 216);
+}
+
+.facebook i {
+    color: white;
+}
+
+.facebook:hover{
+    box-shadow: 0px 5px 15px rgb(45, 62, 150);
+    transition: 1s;
+}
+
+.google{
+    background-color: rgb(231, 125, 125);;
+}
+
+.google i {
+    color: white;
+}
+
+.google:hover{
+    box-shadow: 0px 5px 15px rgb(224, 91, 91);
+    transition: 1s;
+}
+
+.twitter{
+    background-color: rgb(64, 64, 64);
+}
+
+.twitter i {
+    color: white;
+}
+
+.twitter:hover{
+    box-shadow: 0px 5px 15px rgb(41, 41, 41);
+    transition: 1s;
+}
+
+.sign-up {
+    margin-top: 35px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    color: rgb(228, 228, 143);
+}
+
+.error-message{
+    color: rgb(186, 186, 186);
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(160, 154, 85);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    position: relative;
+}
+
+.logoFooter{
+    position: absolute;
+    width: 6vw;
+    top: 30px;
+    left: 16%;
+}
+
+.innerFooter{
+    width: 36vw;
+    padding-left: 180px;
+}
+
+.innerFooter h1{
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.innerFooter p{
+    margin-right: 90px;
+    margin-bottom: 5px;
+}
+
+.innerFooter1{
+    width: 30vw;
+}
+
+.innerFooter1 h1{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.innerFooter1 p{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.sm {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+.sm a {
+    width: 3vw;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 40px;
+}
+
+.facebook{
+    background-color: rgb(108, 126, 216);
+}
+
+.facebook i {
+    color: white;
+}
+
+.facebook:hover{
+    box-shadow: 0px 5px 15px rgb(45, 62, 150);
+    transition: 1s;
+}
+
+.google{
+    background-color: rgb(231, 125, 125);;
+}
+
+.google i {
+    color: white;
+}
+
+.google:hover{
+    box-shadow: 0px 5px 15px rgb(224, 91, 91);
+    transition: 1s;
+}
+
+.twitter{
+    background-color: rgb(64, 64, 64);
+}
+
+.twitter i {
+    color: white;
+}
+
+.twitter:hover{
+    box-shadow: 0px 5px 15px rgb(41, 41, 41);
+    transition: 1s;
+}
+
+@media screen and (min-width: 1500px) {
+    fieldset {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    fieldset {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    fieldset {
+        width: 68vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    fieldset {
+        width: 78vw;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    fieldset {
+        width: 70vw;
+        font-size: 10px;
+
+    }
+}

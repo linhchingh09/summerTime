@@ -1,0 +1,149 @@
+{
+    "flights":[
+    {
+        "id": 1,
+        "name":"Đà Nẵng ",
+        "country":"Việt Nam",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 110
+    },
+    {
+        "id": 2,
+        "name":"Trương Gia Giới",
+        "country":"Trung Quốc",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 225
+    },
+    {
+        "id": 3,
+        "name":"Cinque Terre",
+        "country":"Italy",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 450
+    },
+    {
+        "id": 4,
+        "name":"Quế Lâm",
+        "country":"Trung Quốc",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 310
+    },
+    {
+        "id": 5,
+        "name":"Đà Lạt",
+        "country":"Việt Nam",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 130
+    },
+    {
+        "id": 6,
+        "name":"London",
+        "country":"United Kingdom",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 420
+    },
+    {
+        "id": 7,
+        "name":"Cornwall",
+        "country":"United Kingdom",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 410
+    },
+    {
+        "id": 8,
+        "name":"Biarritz",
+        "country":"France",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 350
+    },
+    {
+        "id": 9,
+        "name":"San Fruttuoso",
+        "country":"Italy",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 340
+    },
+    {
+        "id": 10,
+        "name":"San Fruttuoso",
+        "country":"Italy",
+        "attribute":"Đà Lạt là thành phố tỉnh lỵ trực thuộc tỉnh Lâm Đồng, thuộc vùng Tây Nguyên, Việt Nam",
+        "price": 340
+    }
+],
+ "hotels":[
+    {
+        "id": 10,
+        "img":"./img/umbrella-removebg-preview.png",
+        "name":"Ô che nắng",
+        "price": 20
+    },
+    {
+        "id": 11,
+        "img":"./img/bag.png",
+        "name":"Túi xách đen",
+        "price": 32
+    },
+    {
+        "id": 12,
+        "img":"./img/bag2.png",
+        "name":"Balo đa năng",
+        "price": 34
+    },
+    {
+        "id": 13,
+        "img":"./img/bag1.png",
+        "name":"Túi xách trắng",
+        "price": 38
+    },
+    {
+        "id": 14,
+        "img":"./img/glasses2.png",
+        "name":"Kính râm",
+        "price": 45
+    },
+    {
+        "id": 15,
+        "img":"./img/glasses.png",
+        "name":"Kính chống nắng",
+        "price": 52
+    },
+    {
+        "id": 16,
+        "img":"./img/cap.png",
+        "name":"Mũ lưỡi chai",
+        "price": 35
+    },
+    {
+        "id": 17,
+        "img":"./img/bucketdenim.png",
+        "name":"Mũ bucket",
+        "price": 26
+    },
+    {
+        "id": 18,
+        "img":"./img/jacket4.png",
+        "name":"Áo chống nắng",
+        "price": 48
+    },
+    {
+        "id": 19,
+        "img":"./img/jacket2.png",
+        "name":"Áo khoác da",
+        "price": 56
+    },
+    {
+        "id": 20,
+        "img":"./img/jacket1.png",
+        "name":"Áo khoác trắng",
+        "price": 60
+    },
+    {
+        "id": 21,
+        "img":"./img/jacket3 (1).png",
+        "name":"Áo phao trắng",
+        "price": 67
+    }
+
+    ]
+}

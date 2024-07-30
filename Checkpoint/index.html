@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="http://openweathermap.org/img/wn/10d@2x.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="nav">
+        <div class="lg">
+            <img src="./img/logo-removebg-preview.png" alt="" class="logo">
+            <p class="smt">SummerTime.</p>
+        </div>
+            <div class="nav-items">
+                <div class="nav-item" >
+                    <a href="./trangchu.html" class="on" >Home</a>
+                </div>
+                <div class="nav-item" id="active">
+                    <a href="./index.html" class="on">Weather</a>
+                </div>
+                <div class="nav-item">
+                    <a href="./giohang.html" class="on">Booking</a>
+                </div>
+                <div class="nav-item">
+                    <a href="./blog.html" class="on" style="padding-left: 60px;padding-right: 60px;">Blog</a>
+                    <ul class="dropdown1">
+                        <li><a href="#">China</a></li>
+                        <li><a href="#">France</a></li>
+                        <li><a href="#">Italy</a></li>
+                        <li><a href="#">United Kingdom</a></li>
+                        <li><a href="#">Viet Nam</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="./lienhe.html" class="on">Contact</a>
+                </div>
+            </div>
+        <div class="member">
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+    <div id="root">
+        <div class="container">
+            <div class="main-section">
+                <div class="search-bar">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" name="search-city" id="search-input" placeholder="Tìm kiếm thành phố...">
+                </div>
+                <div class="info-wrapper">
+                    <p class="city-name">__</p>
+                    <p class="weather-state">__</p>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+                    <p class="temperature">__</p>
+                </div>
+            </div>
+            <div class="additional-section">
+                <div class="row">
+                    <div class="item">
+                        <div class="label">Mặt trời mọc</div>
+                        <div class="value sunrise">__</div>
+                    </div>
+                    <div class="item">
+                        <div class="label">Mặt trời lặn</div>
+                        <div class="value sunset">__</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="item">
+                        <div class="label">Độ ẩm</div>
+                        <div class="value"><span class="humidity">__</span>%</div>
+                    </div>
+                    <div class="item">
+                        <div class="label">Gió</div>
+                        <div class="value"><span class="wind-speed">__</span> km/h</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="innerFooter">
+          <img src="./img/logo-removebg-preview.png" alt="" class="logoFooter">
+          <h1> SummerTime.</h1>
+              <p>Contact us at www.donate</p>
+              <p>(+84) 51 251 2512</p>
+              <p>Visit us at Cau Giay, Ha Noi, Viet Nam</p>
+            <div class="sm">
+              <a href="" class="facebook">
+                <i class="fa-brands fa-facebook-f fa-xl"></i>
+            </a>
+            <a href="" class="google">
+                <i class="fa-brands fa-google fa-xl"></i>
+            </a>
+            <a href="" class="twitter">
+                <i class="fa-brands fa-x-twitter fa-xl"></i>
+            </a>
+            </div>
+        </div>
+        <div class="innerFooter1">
+          <h1>About Us</h1>
+          <p>SummerTime. is pleased to help you have rewarding and healing trips. We always evaluate on objective means. Customers can buy genuine and useful products on this website. Thanks for visiting our websit ! </p>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+<script src="./js/moment.js"></script>
+
+</html>

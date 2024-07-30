@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/trangchu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="nav">
+        <div class="lg">
+            <img src="./img/logo-removebg-preview.png" alt="" class="logo">
+            <p class="smt">SummerTime.</p>
+        </div>
+            <div class="nav-items">
+                <div class="nav-item" id="active">
+                    <a href="./trangchu.html" class="on" >Home</a>
+                </div>
+                <div class="nav-item">
+                    <a href="./index.html" class="on">Weather</a>
+                </div>
+                <div class="nav-item">
+                    <a href="./giohang.html" class="on">Booking</a>
+                </div>
+                <div class="nav-item">
+                    <a href="./blog.html" class="on" style="padding-left: 60px;padding-right: 60px;">Blog</a>
+                    <ul class="dropdown1">
+                        <li><a href="#">China</a></li>
+                        <li><a href="#">France</a></li>
+                        <li><a href="#">Italy</a></li>
+                        <li><a href="#">United Kingdom</a></li>
+                        <li><a href="#">Viet Nam</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="./lienhe.html" class="on">Contact</a>
+                </div>
+            </div>
+        <div class="member">
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+    <div class="mySlides fade">
+        <div class="overlay"></div>
+        <img src="./img/hoianvnam.png" style="width:70vw;height:90vh;opacity: 0.75;">
+        <div class="text">
+            <p>Viet Nam</p>
+            <a href="#">Hội An - Đà Nẵng – Địa điểm du lịch mùa hè hấp dẫn nhất khu vực miền Trung</a>
+            <p>Jan 07, 2024</p>
+        </div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="overlay"></div>
+        <img src="./img/sanspain.jpg" style="width:70vw;height:90vh;opacity: 0.65">
+        <div class="text">
+            <p>Spain</p>
+            <a href="#">San Sebastian - Thành phố của biển, nắng, gió và ẩm thực</a>
+            <p>Nov 26, 2023</p>
+        </div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="overlay"></div>
+        <img src="./img/albifrance.png" style="width:70vw; height:90vh;opacity: 0.65">
+        <div class="text">
+            <p>France</p>
+            <a href="#">Thành phố La Episcopal của Albi, France - Quần thể đô thị bằng gạch độc đáo trên thế giới</a>
+            <p>Apr 21, 2024</p>
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center; margin-left: 65px;">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <div class="recentblog">
+        <div class="blog">
+            <img src="./img/england.jpg" alt="">
+        <div class="innertext">
+            <a href="" class="country">United Kingdom</a>
+            <a href="" class="place">Những địa điểm lãng mạn tại Vương Quốc Anh</a>
+            <p>Jul 01, 2024</p>
+        </div>
+        </div>
+        <div class="blog">
+            <img src="./img/sanitaly.jpg" alt="">
+        <div class="innertext">
+            <a href="" class="country">Italy</a>
+            <a href="" class="place">Vì sao không nên bỏ lỡ chuyến đi San Fruttuoso, Liguria</a>
+            <p>Jun 23, 2024</p>
+        </div>
+        </div>
+        <div class="blog">
+            <img src="./img/tggchina.jpg" alt="">
+            <div class="innertext">
+                <a href="" class="country">China</a>
+                <a href="" class="place">Trung Quốc tháng 7: Trải nghiệm mùa hè thú vị</a>
+                <p>May 14, 2024</p>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="./img/biarritzfrance.jpg" alt="">
+            <div class="innertext">
+                <a href="" class="country">France</a>
+                <a href="" class="place">Biarritz, Pháp – Điểm đến lý tưởng cho những chuyến đi đầy nắng</a>
+                <p>May 25, 2024</p>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="./img/dalatvietnam.jpg" alt="">
+            <div class="innertext">
+                <a href="" class="country">Viet Nam</a>
+                <a href="" class="place">Cẩm nang khi đi du lịch tại Đà Lạt</a>
+                <p>Jul 02, 2024</p>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="./img/qlchina.jpg" alt="">
+            <div class="innertext">
+                <a href="" class="country">China</a>
+                <a href="" class="place">Quế Lâm thơ mộng cùng núi non hùng vĩ</a>
+                <p>Mar 05, 2024</p>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="./img/barcelonaspain.png" alt="">
+            <div class="innertext">
+                <a href="" class="country">Spain</a>
+                <a href="" class="place">“Quên lối về” ở Barcelona – Thành phố du lịch đầy quyến rũ!</a>
+                <p>May 09, 2024</p>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="./img/cinqueterreitaly.jpg" alt="">
+            <div class="innertext">
+                <a href="" class="country">Italy</a>
+                <a href="" class="place">Cinque Terre - Điểm đến lý tưởng nhất dành cho người yêu biển.</a>
+                <p>Jun 12, 2024</p>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="./img/cornwalluk.jpg" alt="">
+            <div class="innertext">
+                <a href="" class="country">United Kingdom</a>
+                <a href="" class="place">Những điều bạn cần biết trước khi đến Cornwall</a>
+                <p>Jul 06, 2024</p>
+            </div>
+        </div>
+        <div class="expand">
+            <a href="./blog.html">Click here for more blogs !</a>
+        </div>
+    </div>
+    <div class="rcm">
+        <div class="left">
+            <h3>Popular Posts</h3>
+            <div class="popular">
+                <div class="view">
+                    <img src="./img/albifrance.png" alt="">
+                    <div class="content">
+                        <h4>10 Điều thú vị về Đà Lạt</h4>
+                        <p>Jun 04, 2023</p>
+                    </div>
+                </div>
+                <div class="view">
+                    <img src="./img/cinqueterreitaly.jpg" alt="">
+                    <div class="content">
+                        <h4>Cẩm nang khi du lịch tại Ý</h4>
+                        <p>Apr 15, 2024</p>
+                    </div>
+                </div>
+                <div class="view">
+                    <img src="./img/qlchina.jpg" alt="">
+                    <div class="content">
+                        <h4>Thắng cảnh Trung Quốc</h4>
+                        <p>Aug 17, 2023</p>
+                    </div>
+                </div>
+                <div class="view">
+                    <img src="./img/sanspain.jpg" alt="">
+                    <div class="content">
+                        <h4>Ẩm thực tại Việt Nam</h4>
+                        <p>Mar 21, 2024</p>
+                    </div>
+                </div>  
+                <div class="view">
+                    <img src="./img/hoianvnam.png" alt="">
+                    <div class="content">
+                        <h4>Hoạt động chốn Hội An</h4>
+                        <p>Jun 26, 2024</p>
+                    </div>
+                </div>
+                <div class="view">
+                    <img src="./img/sanitaly.jpg" alt="">
+                    <div class="content">
+                        <h4>Tại sao nên đi du lịch tại Ý ?</h4>
+                        <p>Nov 13, 2023</p>
+                    </div>
+                </div>                              
+            </div>
+        </div>
+        <div class="right">
+            <div class="blogsChild">
+                <h3>Blogs</h3>
+                <div class="blogItem">
+                    <a href="">United Kingdom</a>
+                    <a href="">Vietnam</a>
+                    <a href="">China</a>
+                    <a href="">France</a>
+                    <a href="">Italy</a>
+                </div>
+            </div>
+            <div class="site">
+                <h3>Site Links</h3>
+                <div class="blogItem">
+                    <a href="./trangchu.html">Home</a>
+                    <a href="./index.html">Weather</a>
+                    <a href="./giohang.html">Booking</a>
+                    <a href="./blog.html">Blog</a>
+                    <a href="./lienhe.html">Contact</a>
+                    <a href="./signup.html">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="innerFooter">
+          <img src="./img/logo-removebg-preview.png" alt="" class="logoFooter">
+          <h1> SummerTime.</h1>
+              <p>Contact us at www.donate</p>
+              <p>(+84) 51 251 2512</p>
+              <p>Visit us at Cau Giay, Ha Noi, Viet Nam</p>
+            <div class="sm">
+              <a href="" class="facebook">
+                <i class="fa-brands fa-facebook-f fa-xl"></i>
+            </a>
+            <a href="" class="google">
+                <i class="fa-brands fa-google fa-xl"></i>
+            </a>
+            <a href="" class="twitter">
+                <i class="fa-brands fa-x-twitter fa-xl"></i>
+            </a>
+            </div>
+        </div>
+        <div class="innerFooter1">
+          <h1>About Us</h1>
+          <p>SummerTime. is pleased to help you have rewarding and healing trips. We always evaluate on objective means. Customers can buy genuine and useful products on this website. Thanks for visiting our websit ! </p>
+        </div>
+    </div>
+    <script src="./js/trangchu.js"></script>
+</body>
+</html>

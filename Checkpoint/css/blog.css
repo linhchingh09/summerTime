@@ -1,0 +1,383 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e2eff4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: rgb(41, 137, 150) ;
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 25;
+}
+
+.logo{
+    position: absolute;
+    height: 15vh;
+    left: 13px;
+    top: 3px;
+}
+
+.smt{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    left: 100px;
+    top: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-items {
+    margin-left: 250px;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.on{
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.nav-item  a {
+    display: block;
+    padding: 35px 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.nav-item  a:hover {
+    color:rgb(41, 137, 150) ;
+    background-color: aliceblue;
+    transition: 1s;
+}
+
+.nav-item:hover .dropdown1 {
+    display: block;
+    z-index: 15;
+}
+
+.dropdown1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 162px;
+}
+
+.dropdown1 li {
+    border-bottom: 1px solid #444;
+}
+
+.dropdown1 li a{
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown1 li a:hover {
+    background-color: #575757;
+    color: rgb(17, 106, 117);
+}
+
+.nav-item:hover .dropdown1 {
+    display: block;
+    z-index: 15;
+}
+
+#active {   
+    background-color: aliceblue;
+}
+
+#active a{
+    color:rgb(41, 137, 150) ;
+}
+
+.member{
+    margin-top: 35px;
+    margin-right: 50px;
+    padding-right: 30px;
+}
+
+.member a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.member a:hover{
+    color: rgb(17, 106, 117);
+    
+}
+
+.body h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    color: rgb(17, 106, 117);
+    transition: 2s;
+    animation-name: h1;
+    animation-duration: 4s;
+}
+
+@keyframes h1 {
+    from {color: rgb(67, 161, 173);font-size: 47px;}
+    to {color: rgb(17, 106, 117);font-size: 50px;}
+  }
+
+#bBlog{
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.arrow{
+    position: absolute;
+    top: 3%;
+    left: 95%;
+    color: rgb(17, 106, 117);;
+    animation-name: arrow;
+    animation-duration: 1s;
+}
+
+@keyframes arrow {
+    from {color: rgb(67, 161, 173);left: 15%;}
+    to {color: rgb(17, 106, 117);left: 95%;}
+  }
+
+
+h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    color: rgb(17, 106, 117);
+    animation-name: h2;
+    animation-duration: 4s;
+}
+
+@keyframes h2 {
+    from {color: rgb(52, 134, 145);font-size: 30px;}
+    to {color: rgb(17, 106, 117);font-size: 35px;}
+  }
+
+.blog{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: -120px;
+}
+
+.sBlog{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.sBlog img{
+    width: 90px;
+    height: 90px;
+    margin-right: 30px;
+}
+
+.content h4{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    padding-left: 40px;
+    border-left: 1px solid rgb(206, 206, 206);
+    
+}
+
+.right img{
+    width: 50vw;
+    height: 60vh;
+    margin-right: 20px;
+}
+
+.lBlog{
+    height: 60vh;
+}
+
+.lBlog h3{
+    color: rgb(13, 85, 94);
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 23vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lBlog p{
+    margin-bottom: 30px;
+    color: #878787;
+}
+
+.btm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btm p{
+    color: #333;
+}
+
+.btm a{
+    text-decoration: none;
+    color: rgb(17, 106, 117);
+}
+
+.btm a:hover{
+    color: #333;
+}
+
+.vietnam{
+    padding-bottom: 80px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5px;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    position: relative;
+}
+
+.logoFooter{
+    position: absolute;
+    width: 6vw;
+    top: 30px;
+    left: 16%;
+}
+
+.innerFooter{
+    width: 36vw;
+    padding-left: 180px;
+}
+
+.innerFooter h1{
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.innerFooter p{
+    margin-right: 90px;
+    margin-bottom: 5px;
+}
+
+.innerFooter1{
+    width: 30vw;
+}
+
+.innerFooter1 h1{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.innerFooter1 p{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.sm {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-right: 100px;
+}
+
+.sm a {
+    width: 3vw;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 40px;
+}
+
+.facebook{
+    background-color: rgb(108, 126, 216);
+}
+
+.facebook i {
+    color: white;
+}
+
+.facebook:hover{
+    box-shadow: 0px 5px 15px rgb(45, 62, 150);
+    transition: 1s;
+}
+
+.google{
+    background-color: rgb(231, 125, 125);;
+}
+
+.google i {
+    color: white;
+}
+
+.google:hover{
+    box-shadow: 0px 5px 15px rgb(224, 91, 91);
+    transition: 1s;
+}
+
+.twitter{
+    background-color: rgb(64, 64, 64);
+}
+
+.twitter i {
+    color: white;
+}
+
+.twitter:hover{
+    box-shadow: 0px 5px 15px rgb(41, 41, 41);
+    transition: 1s;
+}

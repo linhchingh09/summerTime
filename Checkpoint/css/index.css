@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://cdnb.artstation.com/p/assets/images/images/003/680/429/large/nova-ashbell-sc01-03.jpg?1476361405");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  color: white;
+  background-image: url("https://media.giphy.com/media/G0Odfjd78JTpu/giphy.gif");
+  width: 400px;
+  margin: 0px auto;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.233);
+}
+
+.search-bar {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.search-icon {
+  margin-right: 5px;
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  color: #cacaca;
+}
+
+#search-input {
+  border: 0;
+  outline: 0;
+  padding: 3px 3px 3px 20px;
+  background: transparent;
+  height: 20px;
+  color: white;
+}
+
+#search-input::placeholder {
+  color: rgb(206, 206, 206);
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding: 80px 50px;
+}
+
+.city-name {
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.weather-state {
+  font-size: 13px;
+}
+
+.weather-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.temperature {
+  font-size: 80px;
+  font-weight: lighter;
+  line-height: 1;
+  position: relative;
+}
+
+.temperature::after {
+  content: "o";
+  position: absolute;
+  font-size: 30px;
+}
+
+.additional-section {
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  font-size: 13px;
+}
+
+.additional-section .row {
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.additional-section .item {
+  display: flex;
+  flex-direction: column;
+  flex: 2; /*flex-shrink ( co lại ) flex-grow(dãn ra) và flex-basis ( xác định độ dài ban đầu )*/
+}
+
+.additional-section .item .label {
+  font-weight: bold;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: -5px;
+  color: white;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.logoFooter{
+  position: absolute;
+  width: 6vw;
+  top: 30px;
+  left: 16%;
+}
+
+.innerFooter{
+  width: 36vw;
+  padding-left: 180px;
+}
+
+.innerFooter h1{
+  margin-bottom: 25px;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.innerFooter p{
+  margin-right: 90px;
+  margin-bottom: 5px;
+}
+
+.innerFooter1{
+  width: 30vw;
+}
+
+.innerFooter1 h1{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.innerFooter1 p{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.sm {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+
+.sm a {
+  width: 3vw;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  border-radius: 40px;
+}
+
+.facebook{
+  background-color: rgb(108, 126, 216);
+}
+
+.facebook i {
+  color: white;
+}
+
+.facebook:hover{
+  box-shadow: 0px 5px 15px rgb(45, 62, 150);
+  transition: 1s;
+}
+
+.google{
+  background-color: rgb(231, 125, 125);;
+}
+
+.google i {
+  color: white;
+}
+
+.google:hover{
+  box-shadow: 0px 5px 15px rgb(224, 91, 91);
+  transition: 1s;
+}
+
+.twitter{
+  background-color: rgb(64, 64, 64);
+}
+
+.twitter i {
+  color: white;
+}
+
+.twitter:hover{
+  box-shadow: 0px 5px 15px rgb(41, 41, 41);
+  transition: 1s;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  background-color: rgb(41, 137, 150) ;
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 35;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.logo{
+  position: absolute;
+  height: 15vh;
+  left: 13px;
+  top: 3px;
+}
+
+.smt{
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  left: 100px;
+  top: 30px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-items {
+  margin-left: 250px;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.on{
+  font-size: 20px;
+  font-weight: 300;
+  width: 100%;
+  height: 15vh;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-item  a {
+  display: block;
+  padding: 35px 50px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.nav-item  a:hover {
+  color:rgb(41, 137, 150) ;
+  background-color: aliceblue;
+  transition: 1s;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+  z-index: 30;
+}
+
+#active {
+  color:rgb(41, 137, 150) ;
+  background-color: aliceblue;
+}
+
+#active a{
+  color:rgb(41, 137, 150) ;
+}
+
+.dropdown1 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 162px;
+}
+
+.dropdown1 li {
+  border-bottom: 1px solid #444;
+}
+
+.dropdown1 li a {
+  padding: 12px 10px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 li a:hover {
+  background-color: #575757;
+}
+
+.nav-item:hover .dropdown1 {
+  display: block;
+  z-index: 15;
+}
+
+.member{
+  margin-top: 35px;
+  margin-right: 50px;
+  padding-right: 30px;
+}
+
+.member a{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.member a:hover{
+  color: rgb(17, 106, 117);
+  
+}
+
