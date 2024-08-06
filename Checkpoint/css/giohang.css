@@ -688,7 +688,6 @@ body.purchase .booking{
     text-align: center;
     text-decoration: none;
     color: white;
-    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 10px;
@@ -736,9 +735,139 @@ body.purchase .booking{
 }
 
 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 0px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(19, 80, 88); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 1s;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(7, 45, 50); /* Add a dark-grey background on hover */
+  }
 
 
 
 
+
+.flightChild, .essentialChild {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.item1 img{
+    width: 23vw;
+    height: 50vh ;
+    border-radius: 20px;
+    box-shadow: 2px 6px 6px gray;
+}
+
+.item1{
+    position: relative;
+    transition: 2s;
+    margin-bottom: 50px;
+}
+
+.appear1{
+    position: relative;
+}
+
+.item1 .overlay5{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 50vh;
+    width: 23vw;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 15;
+    border-radius: 20px;
+}
+
+.item1 h4{
+    color: #fcfdfd;
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+    left: 20%;
+    z-index: 20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hidden1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 23vw;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    z-index: 20;
+    display: none;
+    transition: 2s;
+    border-radius: 10px;
+    box-shadow: 3px 6px 7px gray;
+}
+
+.item1:hover .hidden1{
+    display: block;
+    height: 50vh;
+}
+
+.hidden1 .addCart, .essentialChild .inside .addCart{
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    padding: 10px;
+    width: 20vw;
+    margin-top: 15px;
+    background-color: rgb(17, 106, 117);
+    border: none;
+    position: absolute;
+    bottom: 20px;
+}
+
+.hidden1 h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+.hidden1 h6{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hidden1 h5{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.hidden1 a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.hidden1 p{
+    color: #c2c2c2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
   
