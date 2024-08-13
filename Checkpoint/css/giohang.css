@@ -774,10 +774,25 @@ body.purchase .booking{
     box-shadow: 2px 6px 6px gray;
 }
 
+.item1:first-child img{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.item1:nth-child(2) img{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
 .item1{
     position: relative;
     transition: 2s;
     margin-bottom: 50px;
+    
 }
 
 .appear1{
@@ -836,16 +851,19 @@ body.purchase .booking{
     background-color: rgb(17, 106, 117);
     border: none;
     position: absolute;
-    bottom: 20px;
+    bottom: 60px;
 }
 
 .hidden1 h5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .hidden1 h6{
+    margin-top: 30px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -869,5 +887,6 @@ body.purchase .booking{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 
   

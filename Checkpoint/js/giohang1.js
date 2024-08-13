@@ -77,7 +77,6 @@ let anItem = [
   }
 ];
 
-// Chuyển đổi hiển thị giỏ hàng
 iconCart.forEach(icon => {
   icon.addEventListener('click', () => body.classList.toggle('purchase'));
 });
@@ -112,30 +111,10 @@ const addFlightsToHTML = () => {
       
       newItem.appendChild(hiddenDiv); 
       
-      listFlightHTML.appendChild(newItem); // Thay thế 'list' bằng 'listFlightHTML'
+      listFlightHTML.appendChild(newItem); 
     });
   }
 }
-
-// const addHotelsToHTML = () => {
-//   listHotelHTML.innerHTML = '';
-
-//   if (hotels.length > 0) {
-//     hotels.forEach(hotel => {
-//       let newItem = document.createElement('div');
-//       newItem.classList.add('inside');
-//       newItem.dataset.id = hotel.id;
-//       newItem.innerHTML = `
-//               <img src="${hotel.img}" alt="">
-//               <div class="content">
-//               <h4>${hotel.name}</h4>
-//               <h5>$${hotel.price}</h5>
-//               <button class="addCart">Add to Cart</button>
-//               </div>`;
-//       listHotelHTML.appendChild(newItem);
-//     });
-//   }
-// }
 
 const addHotelsToHTML = () => {
   listHotelHTML.innerHTML = '';
@@ -144,15 +123,11 @@ const addHotelsToHTML = () => {
     hotels.forEach(hotel => {
       let newItem = document.createElement('div');
       newItem.classList.add('item1'); 
-      let anItemMatch = anItem.find(item => item.id == hotel.id);
-      if (anItemMatch) {
-        newItem.dataset.id = hotel.id;
         newItem.innerHTML =`<div class="appear1">
                             <img src="${hotel.img}" alt="">
                             <div class="overlay5"></div>
                             <h4 >${hotel.name}</h4>
                             </div>`;
-      }
       let hiddenDiv = document.createElement('div');
       hiddenDiv.dataset.id = hotel.id;
       hiddenDiv.classList.add('hidden1'); 
@@ -163,7 +138,7 @@ const addHotelsToHTML = () => {
       
       newItem.appendChild(hiddenDiv); 
       
-      listHotelHTML.appendChild(newItem); // Thay thế 'list' bằng 'listFlightHTML'
+      listHotelHTML.appendChild(newItem); 
     });
   }
 }
@@ -278,7 +253,7 @@ initApp();
 
 let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -289,8 +264,8 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0;
 }

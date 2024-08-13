@@ -549,7 +549,8 @@ body{
     background-color: rgb(19, 80, 88); /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
+    padding: 15px; 
+    padding-left: 6px;/* Some padding */
     font-size: 18px; /* Increase font size */
     padding-top: 20px;
     padding-bottom: 20px;

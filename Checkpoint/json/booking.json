@@ -73,73 +73,73 @@
 ],
  "hotels":[
     {
-        "id": 1,
+        "id": 11,
         "img":"./img/umbrella-removebg-preview.png",
         "name":"Ô che nắng",
         "price": 20
     },
     {
-        "id": 2,
+        "id": 12,
         "img":"./img/bag.png",
         "name":"Túi xách đen",
         "price": 32
     },
     {
-        "id": 3,
+        "id": 13,
         "img":"./img/bag2.png",
         "name":"Balo đa năng",
         "price": 34
     },
     {
-        "id": 4,
+        "id": 14,
         "img":"./img/bag1.png",
         "name":"Túi xách trắng",
         "price": 38
     },
     {
-        "id": 5,
+        "id": 15,
         "img":"./img/glasses2.png",
         "name":"Kính râm",
         "price": 45
     },
     {
-        "id": 6,
+        "id": 16,
         "img":"./img/glasses.png",
         "name":"Kính chống nắng",
         "price": 52
     },
     {
-        "id": 7,
+        "id": 17,
         "img":"./img/cap.png",
         "name":"Mũ lưỡi chai",
         "price": 35
     },
     {
-        "id": 8,
+        "id": 18,
         "img":"./img/bucketdenim.png",
         "name":"Mũ bucket",
         "price": 26
     },
     {
-        "id": 9,
+        "id": 19,
         "img":"./img/jacket4.png",
         "name":"Áo chống nắng",
         "price": 48
     },
     {
-        "id": 10,
+        "id": 20,
         "img":"./img/jacket2.png",
         "name":"Áo khoác da",
         "price": 56
     },
     {
-        "id": 11,
+        "id": 21,
         "img":"./img/jacket1.png",
         "name":"Áo khoác trắng",
         "price": 60
     },
     {
-        "id": 12,
+        "id": 22,
         "img":"./img/jacket3 (1).png",
         "name":"Áo phao trắng",
         "price": 67
